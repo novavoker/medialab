@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+
+}
+.div{
+    width: 100%;
+    height: 50px;
+    background-color: #616161;
+}
+.div div:first-child {
+   display: inline-flex;
+ }
+.div div:first-child i{
+   color: #efae0c;
+}
+.div div:first-child p{
+    color: white;
+    display: inline-flex;
+}
+.div div:nth-child(2){
+    display: inline-flex;
+}
+.div div:nth-child(2) p{
+    color: white;
+    display: inline-flex;
+}
+.div div:nth-child(3){
+    display: inline-flex;
+
+}
+.div3{
+    height: 500px;
+    background-color: white;
+}
+header .row{
+    width: 100%;
+    height: 75vh;
+}
+.d1{
+    height: 60vh;
+}
+.d2{
+    height: 70vh;
+}
+header .row .d2 img{
+    height: 60vh;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    height: 500px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 30px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #efae0c;
+    border-radius: 30px;
+}
+.div4 h1,a {
+    display: inline-flex;
+}
+.div4 h1 {
+    margin-top: -  10px;
+}
+
+.div4 a {
+    text-decoration: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.div5 {
+    float: right;
+}
+.div5 p {
+    color: white;
+}
+.div88 {
+    width: 500px;
+    background-color: #efae0c;
+}
+
+.imgicon{
+    width: 25px;
+    height: auto;
+}
+.divh{
+    width: 75% ;
+}
+.ppf{
+    font-size: 13pt;
+}
+
+@media screen and (max-width:1400px) {
+    .divh{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .divyo{
+        display: none;
+    }
+    .pyo{
+        display: none;
+    }
+    .imgyo{
+        width: 100px;
+    }
+    .divmtt{
+        margin-top: 0px;
+    }
+    main{
+        margin-top: -270px;
+    }
+    .hya{
+        font-size: 15pt;
+    }
+}
+.p33{
+    font-size: 14pt;
+}
+@media screen and (max-width:991px) {
+    .divnone{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .ppf{
+        font-size: 7pt;
+    }
+    .h33{
+        font-size: 10pt;
+    }
+    .p33{
+        font-size: 7pt;
+    }
+}
+#besh{
+    border: 2px solid gray;
+}
+
+a{
+    text-decoration: none;
+}
+p{text-decoration: none;}
+
+.div212{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.div212 input {
+    border-radius: 70px;
+    
+    width:165px; 
+    height:160px;
+
+    background: no-repeat url(https://tinfis.uz/img/circle1.svg);
+    background-size: cover;
+}
+.bbb {
+    float: right;
+}
+
+.ddd {
+    margin: auto;
+}
+
+.img11 {
+    margin: auto;
+    margin-top: 100px;
+}
+
+.btt {
+    margin: auto;
+}
+
+.ggg {
+    color: black;
+    border:solid #efae0c;
+    border-radius: 5px;
+}
